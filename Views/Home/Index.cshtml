@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var assignment1Mark = 20;
+    var assignment2Mark = 20;
+    var tutorialMark = 30;
+    var totalMark = assignment1Mark + assignment2Mark + tutorialMark;
+}
+
+<h4>My Total Mark (from this page C#): @totalMark</h4>
+<h4>My Total Mark (from ViewBag in the controller): @ViewBag.MyTotalMark</h4>
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
