@@ -9,17 +9,6 @@ namespace AspNetCoreWebSite.Controllers
     {
         public IActionResult Index()
         {
-            var assignment1Mark = 30;
-            var assignment2Mark = 30;
-            var tutorialMark = 30;
-            var totalMark = assignment1Mark + assignment2Mark + tutorialMark;
-            ViewBag.MyTotalMark = totalMark;
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
             return View();
         }
 
