@@ -33,7 +33,9 @@ namespace WDPAssessment3.Models
         [Display(Name = "File size")]
         public long? FileSize { get; set; }
 
+        public string StorageFile => $"{Id}{FileExtension}";
+
         [JsonIgnore]
-        public string StoragePath => Path.Combine("images", $"{Id}{FileExtension}");
+        public string StoragePath => Path.Combine("images", StorageFile);
     }
 }
