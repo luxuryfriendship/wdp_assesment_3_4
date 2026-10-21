@@ -25,7 +25,7 @@ namespace AspNetCoreWebSite.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AspNetCoreWebSite.Models.DiscussionForum", b =>
+            modelBuilder.Entity("AspNetCoreWebSite.Models.AIImage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,7 +53,7 @@ namespace AspNetCoreWebSite.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DiscussionForum");
+                    b.ToTable("AIImage");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

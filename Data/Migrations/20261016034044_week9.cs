@@ -12,7 +12,7 @@ namespace AspNetCoreWebSite.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "DiscussionForum",
+                name: "AIImage",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -24,7 +24,7 @@ namespace AspNetCoreWebSite.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DiscussionForum", x => x.Id);
+                    table.PrimaryKey("PK_AIImage", x => x.Id);
                 });
         }
 
@@ -32,7 +32,7 @@ namespace AspNetCoreWebSite.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "DiscussionForum");
+                name: "AIImage");
         }
     }
 }

@@ -12,7 +12,7 @@ namespace AspNetCoreWebSite.Data.Migrations
         {
             migrationBuilder.AddColumn<int>(
                 name: "Like",
-                table: "DiscussionForum",
+                table: "AIImage",
                 type: "int",
                 nullable: false,
                 defaultValue: 0);
@@ -59,7 +59,7 @@ namespace AspNetCoreWebSite.Data.Migrations
         {
             migrationBuilder.DropColumn(
                 name: "Like",
-                table: "DiscussionForum");
+                table: "AIImage");
 
             migrationBuilder.AlterColumn<string>(
                 name: "Name",

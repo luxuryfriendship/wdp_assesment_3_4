@@ -35,24 +35,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/DiscussionForums/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xDcmVhdGUuY3NodG1s
+[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/AIImages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlJbWFnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/DiscussionForums/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xEZWxldGUuY3NodG1s
+[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/AIImages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlJbWFnZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/DiscussionForums/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xEZXRhaWxzLmNzaHRtbA==
+[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/AIImages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlJbWFnZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/DiscussionForums/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xFZGl0LmNzaHRtbA==
+[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/AIImages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlJbWFnZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/DiscussionForums/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xJbmRleC5jc2h0bWw=
+[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/AIImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlJbWFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/Home/Contact.cshtml]
@@ -61,10 +61,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/freya_dev/AspNetCoreWebSite/AspNetCoreWebSite/Views/Shared/Error.cshtml]

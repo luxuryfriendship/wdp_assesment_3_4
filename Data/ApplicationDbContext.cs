@@ -5,6 +5,6 @@ namespace AspNetCoreWebSite.Data
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext(options)
     {
-    public DbSet<AspNetCoreWebSite.Models.DiscussionForum> DiscussionForum { get; set; } = default!;
+    public DbSet<AspNetCoreWebSite.Models.AIImage> AIImage { get; set; } = default!;
     }
 }
