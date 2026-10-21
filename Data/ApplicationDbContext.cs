@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AspNetCoreWebSite.Data
+namespace WDPAssessment3.Data
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext(options)
     {
-    public DbSet<AspNetCoreWebSite.Models.AIImage> AIImage { get; set; } = default!;
+    public DbSet<WDPAssessment3.Models.AIImage> AIImage { get; set; } = default!;
     }
 }

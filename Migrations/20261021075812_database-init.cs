@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace AspNetCoreWebSite.Migrations
+namespace WDPAssessment3.Migrations
 {
     /// <inheritdoc />
     public partial class databaseinit : Migration

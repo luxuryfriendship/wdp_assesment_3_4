@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace AspNetCoreWebSite.Models
+namespace WDPAssessment3.Models
 {
     public class AIImage
     {

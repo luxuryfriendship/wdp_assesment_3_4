@@ -1,4 +1,4 @@
-namespace AspNetCoreWebSite.Models
+namespace WDPAssessment3.Models
 {
     public class ErrorViewModel
     {

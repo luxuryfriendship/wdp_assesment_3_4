@@ -1,8 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using AspNetCoreWebSite.Models;
-using AspNetCoreWebSite.Data;
+using WDPAssessment3.Models;
+using WDPAssessment3.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.CodeAnalysis.Operations;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;

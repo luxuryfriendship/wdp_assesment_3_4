@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AspNetCoreWebSite.Models
+namespace WDPAssessment3.Models
 {
     public class UploadFile
     {
