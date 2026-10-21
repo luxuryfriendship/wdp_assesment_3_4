@@ -34,6 +34,6 @@ namespace AspNetCoreWebSite.Models
         public long? FileSize { get; set; }
 
         [JsonIgnore]
-        public string StoragePath => Path.Combine("images", $"{Id}.{FileExtension}");
+        public string StoragePath => Path.Combine("images", $"{Id}{FileExtension}");
     }
 }
