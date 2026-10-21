@@ -59,32 +59,6 @@ namespace AspNetCoreMvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "admin, member")]
-        //public async Task<IActionResult> Create([Bind("Id,Prompt,MessageContent")] AIImage aiImage, UploadFile uploadFile)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return View(aiImage);
-        //    }
-
-        //    if (uploadFile.File != null)
-        //    {
-        //        var fileName = Path.GetFileName(uploadFile.File.FileName);
-        //        var imagesDir = Path.Combine(_hostingEnv.WebRootPath, "images");
-        //        if (!Path.Exists(imagesDir))
-        //        {
-        //            Directory.CreateDirectory(imagesDir);
-        //        }
-        //        var filePath = Path.Combine(imagesDir, fileName);
-        //        using (var fileStream = new FileStream(filePath, FileMode.Create))
-        //        {
-        //            await uploadFile.File.CopyToAsync(fileStream);
-        //        }
-        //    }
-
-        //    _context.Add(aiImage);
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction(nameof(Index));
-        //}
         public async Task<IActionResult> Create([Bind("Id, Prompt, MessageContent")] AIImage aiImage, UploadFile uploadFile)
         {
             if (!ModelState.IsValid)
