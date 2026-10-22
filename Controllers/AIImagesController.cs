@@ -59,7 +59,7 @@ namespace AspNetCoreMvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "admin, member")]
-        public async Task<IActionResult> Create([Bind("Id, Prompt, MessageContent")] AIImage aiImage, UploadFile uploadFile)
+        public async Task<IActionResult> Create([Bind("Id, Prompt, ImageGenerator")] AIImage aiImage, UploadFile uploadFile)
         {
             if (!ModelState.IsValid)
             {
@@ -114,7 +114,7 @@ namespace AspNetCoreMvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> Edit(int? id, [Bind("Id,PostDate,UserName,TopicTitle,MessageContent")] AIImage aiImage)
+        public async Task<IActionResult> Edit(int? id, [Bind("Id,PostDate,UserName,TopicTitle,ImageGenerator")] AIImage aiImage)
         {
             if (id != aiImage.Id)
             {

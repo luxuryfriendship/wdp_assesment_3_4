@@ -14,3 +14,14 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<ul id="images" class="list-unstyled list-group list-group-horizontal">
+
+@foreach (var image in ViewBag.Images)
+{
+    <li class="list-group-item">
+        <div>@image.ImageGenerator</div>
+        <img class="img-thumbnail ai-image-preview " src="~/images/@image.StorageFile" />
+    </li>
+}
+</ul>

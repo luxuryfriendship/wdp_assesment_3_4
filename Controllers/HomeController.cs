@@ -2,13 +2,23 @@ using WDPAssessment3.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Cryptography.Pkcs;
+using WDPAssessment3.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace WDPAssessment3.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
         {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            ViewBag.Images = await _context.AIImage.ToListAsync();
             return View();
         }
 

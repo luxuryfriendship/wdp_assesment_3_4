@@ -24,8 +24,8 @@ namespace WDPAssessment3.Models
         public string Prompt { get; set; }
 
         [Required] 
-        [Display(Name = "MessageContent")]
-        public string MessageContent { get; set; }
+        [Display(Name = "Image generator")]
+        public string ImageGenerator { get; set; }
 
         [Display(Name = "Like")]
         public int Like { get; set; }

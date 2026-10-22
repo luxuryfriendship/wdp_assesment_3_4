@@ -32,7 +32,7 @@
         }
     </p>
     <img src="~/images/@item.StorageFile" />
-    <p>@Html.DisplayFor(modelItem => item.MessageContent)</p>
+    <p>@Html.DisplayFor(modelItem => item.ImageGenerator)</p>
     <p>Posted by <b>@Html.DisplayFor(modelItem => item.UserName)</b> on @Html.DisplayFor(modelItem => item.UploadDate)</p>
     <p>
         @if (User.IsInRole("admin"))
